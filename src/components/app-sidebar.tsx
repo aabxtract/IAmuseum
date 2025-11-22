@@ -1,8 +1,8 @@
 "use client"
-import { Sidebar, SidebarHeader, SidebarContent, SidebarMenu, SidebarMenuItem, SidebarMenuButton } from "@/components/ui/sidebar";
-import { LayoutGrid, Vote, Gem, User, Upload, Binary } from "lucide-react";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Button } from "@/components/ui/button";
+import { LayoutGrid, Vote, Gem, User, Upload, PanelLeft } from "lucide-react";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 
 const menuItems = [
     { href: "/gallery", label: "Archive Gallery", icon: LayoutGrid },
@@ -13,30 +13,28 @@ const menuItems = [
 ];
 
 export function AppSidebar() {
-  const pathname = usePathname();
-  
   return (
-    <Sidebar variant="sidebar" collapsible="icon">
-      <SidebarHeader>
-        <Link href="/gallery" className="flex items-center gap-2 p-2">
-            <Binary className="h-8 w-8 text-accent" />
-            <h1 className="text-xl font-black tracking-tighter text-sidebar-foreground">Internet Archeology DAO</h1>
-        </Link>
-      </SidebarHeader>
-      <SidebarContent>
-        <SidebarMenu>
-          {menuItems.map((item) => (
-            <SidebarMenuItem key={item.href}>
-              <SidebarMenuButton asChild isActive={pathname.startsWith(item.href)} tooltip={item.label}>
-                <Link href={item.href}>
-                  <item.icon /> 
-                  <span>{item.label}</span>
+    <Sheet>
+        <SheetTrigger asChild>
+            <Button size="icon" variant="outline">
+                <PanelLeft className="h-5 w-5" />
+                <span className="sr-only">Toggle Menu</span>
+            </Button>
+        </SheetTrigger>
+        <SheetContent side="left" className="w-[280px]">
+            <nav className="grid gap-4 text-lg font-medium mt-8">
+            {menuItems.map((item) => (
+                <Link
+                key={item.href}
+                href={item.href}
+                className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground"
+                >
+                <item.icon className="h-5 w-5" />
+                {item.label}
                 </Link>
-              </SidebarMenuButton>
-            </SidebarMenuItem>
-          ))}
-        </SidebarMenu>
-      </SidebarContent>
-    </Sidebar>
+            ))}
+            </nav>
+        </SheetContent>
+    </Sheet>
   );
 }

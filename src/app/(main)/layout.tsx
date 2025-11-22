@@ -1,6 +1,5 @@
 import { AppHeader } from "@/components/app-header";
-import { AppSidebar } from "@/components/app-sidebar";
-import { SidebarProvider, SidebarInset } from "@/components/ui/sidebar";
+import { SidebarProvider } from "@/components/ui/sidebar";
 
 export default function MainLayout({
   children,
@@ -9,12 +8,9 @@ export default function MainLayout({
 }) {
   return (
     <SidebarProvider>
-      <div className="min-h-screen w-full">
-        <AppSidebar />
-        <div className="flex flex-col">
-            <AppHeader />
-            <main className="p-4 sm:p-6 lg:p-8">{children}</main>
-        </div>
+      <div className="flex min-h-screen w-full flex-col">
+        <AppHeader />
+        <main className="flex-1 p-4 sm:p-6 lg:p-8">{children}</main>
       </div>
     </SidebarProvider>
   );
