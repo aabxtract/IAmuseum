@@ -1,3 +1,76 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "artifact-1",
+      "description": "A classic 'lolcat' meme from the early days of the internet.",
+      "imageUrl": "https://images.unsplash.com/photo-1674981959759-b6d2f9657f64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjYXQlMjBtZW1lfGVufDB8fHx8MTc2Mzg0MDc5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cat meme"
+    },
+    {
+      "id": "artifact-2",
+      "description": "The iconic user interface of a vintage operating system.",
+      "imageUrl": "https://images.unsplash.com/photo-1532799118157-9fef52fdbc5e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxvbGQlMjBjb21wdXRlcnxlbnwwfHx8fDE3NjM4NDA3OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "old computer"
+    },
+    {
+      "id": "artifact-3",
+      "description": "A screenshot of a GeoCities website, a staple of Web1.",
+      "imageUrl": "https://images.unsplash.com/photo-1639395241103-9c855f93a90c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxyZXRybyUyMHdlYnNpdGV8ZW58MHx8fHwxNzYzODQwNzkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "retro website"
+    },
+    {
+      "id": "artifact-4",
+      "description": "Pixel art of a space invader, representing early gaming culture.",
+      "imageUrl": "https://images.unsplash.com/photo-1564585447193-cd9a0cf42a36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwaXhlbCUyMGFydHxlbnwwfHx8fDE3NjM3Nzg4NjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pixel art"
+    },
+    {
+      "id": "artifact-5",
+      "description": "An AIM chat log snippet, showcasing early instant messaging.",
+      "imageUrl": "https://images.unsplash.com/photo-1611606063065-ee7946f0787a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjaGF0JTIwbG9nfGVufDB8fHx8MTc2Mzg0MDc5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chat log"
+    },
+    {
+      "id": "artifact-6",
+      "description": "The 'Dancing Baby' animation, one of the first viral videos.",
+      "imageUrl": "https://images.unsplash.com/photo-1627012441283-79151a20adf6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHwzZCUyMGFuaW1hdGlvbnxlbnwwfHx8fDE3NjM4Mjg3OTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "3d animation"
+    },
+    {
+      "id": "artifact-7",
+      "description": "A 'Badger Badger Badger' meme screenshot.",
+      "imageUrl": "https://images.unsplash.com/photo-1609562234645-1b03f81c7653?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmbGFzaCUyMGFuaW1hdGlvbnxlbnwwfHx8fDE3NjM4NDA3OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "flash animation"
+    },
+    {
+      "id": "artifact-8",
+      "description": "UI elements from a classic media player.",
+      "imageUrl": "https://images.unsplash.com/photo-1618099378810-1fd4c13961d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtdXNpYyUyMHBsYXllcnxlbnwwfHx8fDE3NjM3OTg2NDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "music player"
+    },
+    {
+      "id": "artifact-9",
+      "description": "An early Twitter post design.",
+      "imageUrl": "https://images.unsplash.com/photo-1761864293806-1841acc1b14a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MXwxfHNlYXJjaHw4fHxzb2NpYWwlMjBtZWRpYXxlbnwwfHx8fDE3NjM4MDYwMTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "social media"
+    },
+    {
+      "id": "artifact-10",
+      "description": "A screenshot of the 'All your base are belong to us' meme.",
+      "imageUrl": "https://images.unsplash.com/photo-1579373903781-fd5c0c30c4cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx2aWRlbyUyMGdhbWV8ZW58MHx8fHwxNzYzODE5MDczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "video game"
+    },
+    {
+      "id": "artifact-11",
+      "description": "A fragment of an old Flash game interface.",
+      "imageUrl": "https://images.unsplash.com/photo-1621848895472-ef51d424cc34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmbGFzaCUyMGdhbWV8ZW58MHx8fHwxNzYzODQwNzkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "flash game"
+    },
+    {
+      "id": "artifact-12",
+      "description": "The Nyan Cat meme, a symbol of early 2010s internet culture.",
+      "imageUrl": "https://images.unsplash.com/photo-1685462639483-9658a8aa8129?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwaXhlbCUyMGNhdHxlbnwwfHx8fDE3NjM4NDA3OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pixel cat"
+    }
+  ]
 }
